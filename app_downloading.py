@@ -2,7 +2,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import requests
  
-
+apk = input('give apk name : ')
 url = 'https://m.apkpure.com/search?q='+apk
 page = requests.get(url)
  
